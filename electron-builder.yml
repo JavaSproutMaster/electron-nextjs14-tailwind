@@ -1,0 +1,12 @@
+appId: com.example.nextron
+productName: Electron Next.js Starter App
+copyright: Copyright © 2022 Nick Lind
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

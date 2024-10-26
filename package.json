@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "electron-nextjs-app",
+  "description": "Boilerplate code for building Electron apps with Next.js, TypeScript, Tailwind, and Electron",
+  "version": "1.0.0",
+  "author": "Nick Lind <nthorlind@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "package": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@tailwindcss/typography": "^0.5.4",
+    "autoprefixer": "^10.4.8",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.0.1",
+    "lucide-react": "^0.453.0",
+    "postcss": "^8.4.16",
+    "react-icons": "^5.3.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.1.8",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/react": "^18.0.8",
+    "electron": "^18.2.0",
+    "electron-builder": "^23.0.3",
+    "next": "^14.2.13",
+    "nextron": "^9.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^5.1.5"
+  }
+}
